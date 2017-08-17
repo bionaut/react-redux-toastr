@@ -193,7 +193,7 @@ export default class ToastrConfirm extends React.Component {
             })}
           </div>
         </div>
-        <div className="shadow"></div>
+        <div onClick={this.handleCancelClick.bind(this)} className="shadow"></div>
       </div>
     );
   }
